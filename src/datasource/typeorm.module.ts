@@ -15,8 +15,8 @@ import { Global, Module } from '@nestjs/common';
             type: 'postgres',
             host: 'localhost',
             port: 5432,
-            username: 'postgres',
-            password: 'david2468',
+            username: '',
+            password: '',
             database: 'hng',
             synchronize: true,
             entities: [`${__dirname}/../**/**.entity{.ts,.js}`], // this will automatically load all entity file in the src folder
